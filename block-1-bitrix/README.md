@@ -38,7 +38,7 @@
 * **API D7:** Для работы с почтой используется современный класс `\Bitrix\Main\Mail\Event`. Почтовое событие — `FAQ_ANSWER_MAIL`.
 
 ### Задание 1.4: Кастомный компонент
-**Путь:** `/local/components/my_components/elements.list`
+**Путь:** `/local/components/my_namespace/task_1_4.iblock.list`
 
 **Особенности реализации:**
 * **ORM D7:** Для выборки данных использован класс `\Bitrix\Iblock\ElementTable` вместо старого `CIBlockElement::GetList`. Получение названия раздела реализовано без лишних запросов через связи сущностей (`IBLOCK_SECTION.NAME`).
